@@ -15,4 +15,8 @@ public class RestControllerClass {
 	public String dispaly() {
 		return"<h1>Hello Jenkins..!! </h1>";
 	}
+	@GetMapping("/bye")
+	public String bye() {
+		return"<h1>Bye Jenkins..!! </h1>";
+	}
 }
